@@ -20,6 +20,6 @@ def health():
     print(f"Health check - IA: {ai_status}")
     return jsonify({"status": "OK", "ai": ai_status})
 
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port, debug=False) 
+#if __name__ == '__main__':
+ #   print("Démarrage du serveur Flask...")
+ #   app.run(host='0.0.0.0', port=5000, debug=True) 
