@@ -1,0 +1,8 @@
+{
+  "name": "hotel-chatbot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "python app.py"
+  },
+  "dependencies": {}
+}
